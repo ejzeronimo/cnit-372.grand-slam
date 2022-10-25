@@ -26,7 +26,7 @@ async function getCurrentDate(): Promise<string> {
 }
 
 
-let foo = getCurrentDate();
+let foo = await getCurrentDate();
 
 
 export default async function render() {
